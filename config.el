@@ -41,10 +41,11 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 (setq org-journal-dir "~/org/journal/")
-(setq org-noter-notes-search-path "~/org/annotations/")
 (setq org-roam-directory "~/org/roam/")
 (setq org-brain-path "~/org/notes/")
 (setq deft-directory org-brain-path)
+
+(setq parinfer-rust-auto-download t)
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
